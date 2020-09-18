@@ -7,4 +7,9 @@ class Dog
     @name = name
     @@all << self 
   end
+  
+  def self.printall
+    puts @@all 
+  end
+  
 end
